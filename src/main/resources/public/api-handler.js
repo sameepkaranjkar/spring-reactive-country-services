@@ -1,6 +1,6 @@
 const GET_COUNTRY_BY_NAME_URL = 'http://localhost:8080/countries/';
 const GET_ALL_COUNTRIES_URL = 'http://localhost:8080/countries';
-const SECRET_KEY = "7283cc54d618be9ec97532fe11efef4d";
+const SECRET_KEY = "f25dc802ba3fd7e32797d65321396a0b";
 // Button click handler
 const onSearchByNameButtonClick = () => {
   const countryName = document.querySelector('#countryName').value.trim();

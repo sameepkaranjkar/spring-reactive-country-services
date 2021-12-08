@@ -8,13 +8,9 @@ Rest API to receive information about contry
 o https://restcountries.eu/  API
 
 # Technologies
-
 o Java
-
-o Spring Boot Framework
-
+o Reactive Spring Boot
 o REST & JSON 
-
 
 # Note :
 
@@ -23,7 +19,8 @@ o API Keys needs to be passed from request header
 ## How to run the Application
 
 1. #### Clone
-`git clone https://github.com/sameepkaranjkar/reactive-countryservices.git`
+
+`git clone https://github.com/sameepkaranjkar/spring-reactive-country-services.git`
 
 2. #### Run
 `./mvnw spring-boot:run`

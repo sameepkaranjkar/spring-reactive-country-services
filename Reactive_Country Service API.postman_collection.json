@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "e4adf9b7-e3b5-478f-afe9-9337bacf2216",
+		"name": "Country Service API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Country By  Name",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access_key",
+						"value": "f25dc802ba3fd7e32797d65321396a0b",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/countries/Finland",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"countries",
+						"Finland"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Countries",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access_key",
+						"value": "7283cc54d618be9ec97532fe11efef4d",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/countries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"countries"
+					]
+				},
+				"description": "Get all Countries"
+			},
+			"response": []
+		}
+	]
+}
