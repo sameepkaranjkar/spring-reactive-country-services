@@ -1,0 +1,104 @@
+html {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  padding: 10px;
+  background-color: #c1dafd56;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+label
+{
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(14, 65, 177);
+  text-align: left;
+  font-size: 28px;
+}
+.container {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 10px;
+}
+.main {
+  padding: 20px;
+  width: 50%;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-header {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 20px;
+  display: block;
+  color: rgb(104, 3, 45);
+  background-image:'country-unsplash.jpg';
+}
+.service-header {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  color: rgb(107, 7, 49);
+}
+.main-input-comment { margin-bottom: 20px; }
+.main-comment-area {
+  width: 55%;
+  border: #ced4da 1px solid;
+  border-radius: 10px;
+  resize: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: flex;
+}
+.main-analyze-button {
+  width: 25%;
+  padding: 5px;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  border-radius: 7px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  outline: none;
+  display: flex;
+}
+.main-analyze-button::-moz-focus-inner {border: 0;}
+.main-analyze-button:hover {
+  background-color: #0069d9;
+  border-color: #0069d9;
+  cursor: pointer;
+  display: flex;
+}
+
+.main-result-block { 
+  background-color: rgb(159, 202, 243);
+  border: 1px solid #007bff;
+  width: 25%;
+  margin-top: 20px;
+  text-align: left; 
+  display: flex;
+  
+}
+table, th, td {
+  border:1px solid black;
+}
+.invisible { display: none; }

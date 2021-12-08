@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Country Rest API </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/rikmms/progress-bar-4-axios/0a3acf92/dist/nprogress.css" />
+</head>
+<body>
+   <div class="main-header">
+        <h2>Country Search API</h2>
+    </div>
+	<div class="container">
+        <div class="main">
+                <section class="main-input-comment">
+                <label class="service-header" for="countryName">1. Search Country By Name</label>
+                <label for="countryName">Enter the name of country to search :</label>
+                <input type="text"
+                        name="countryName"
+                        id="countryName"
+                        class="main-comment-area"
+                        placeholder="Name of the country...">
+                <button class="main-analyze-button" onclick="onSearchByNameButtonClick()">Search By Name</button>
+            </section>
+            <section>
+                <p id="country-result" class="main-result-block invisible">
+                    <span>Search Result:</span>
+                    <span id="result">
+                    <table id="country">
+                   </table>
+                    </span>
+                </p>
+        </section>
+        </div>
+      <div class="main">
+            <section class="main-input-comment">
+                <label class="service-header" for="countryName">2. All Countries</label>
+                <label for="countryName">Search all Countries</label>
+                <button class="main-analyze-button" onclick="onSearchAllButtonClick()">Search All</button>
+            </section>
+            <section>
+                <p id="all-country-result" class="main-result-block invisible">
+                    <span>Search Result:</span>
+                    <span id="all-result">
+                    <table id="all-country"></table>
+                    </span>
+                </p>
+            </section>
+        </div>
+    </div>
+ </body>
+  <!-- Import axios library -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <!-- Import Progress bar library-->
+  <script src="https://cdn.rawgit.com/rikmms/progress-bar-4-axios/0a3acf92/dist/index.js"></script>
+    <!-- Import our javascript file -->
+  <script src="api-handler.js"></script>
+  <script type="text/javascript">
+    loadProgressBar();
+</script>
+</body>
